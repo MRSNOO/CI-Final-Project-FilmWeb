@@ -1,8 +1,12 @@
-let app = document.getElementById("app");
-view.showComponents("eachFilm");
+// let app = document.getElementById("app");
+view.showComponents("mainPage");
 // app.innerHTML = components.eachFilm
 
+// window.onload = initHandler;
 
+// function initHandler(){
+//   controller.initAuth();
+// }
 
 
 

@@ -1,0 +1,49 @@
+
+.comment-container{
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 38px);
+}
+.list-comments{
+  height: calc(100% - 38px);
+  overflow-y: scroll;
+
+}
+.comment-form{
+  height: 38px;
+  display: flex;
+  flex-direction: row
+
+}
+.current-comment{
+  height: 38px;
+  
+}
+.input-chat{
+  height: 38px;
+  width: 100%;
+  display: inline-block;
+  min-width: 150px;
+  min-height: 38px;
+  padding: 15px;
+  font-size: 13px;
+  line-height: 20px;
+  border-radius: 5px;
+  word-break: break-word;
+
+}
+.comment-form .input-wrapper {
+  width: calc(100% - 120px);
+}
+.add-conversation-form{
+  padding:5px
+}
+
+.add-conversation-form>*{
+  margin-bottom:5px
+}
+
+.add-conversation-form button{
+  min-width:30px;
+  max-width: 100%;
+}
